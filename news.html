@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+      <ul class="navlinks">
+        <div class="logo">
+          <a href="index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 80 20" width="80" height="20">
+                <path fill="#2C2D30" d="M24.89 4.18c-1.44 0-2.74.57-3.73 1.48l-.1-.05A5.74 5.74 0 0 0 15.35.25a5.74 5.74 0 0 0-5.72 5.36l-.1.05A5.46 5.46 0 0 0 5.8 4.18 5.8 5.8 0 0 0 0 10c0 2.78 2.75 5.16 3.43 5.7a19.1 19.1 0 0 0 11.92 4.06c4.51 0 8.7-1.5 11.9-4.06.7-.54 3.44-2.92 3.44-5.7a5.8 5.8 0 0 0-5.8-5.8ZM74.53 16.91c3.19 0 5.47-1.3 5.47-3.91 0-1.88-1.18-3.2-3.75-4.16l-.66-.25c-1.02-.38-1.63-.73-1.63-1.38 0-1.47 3.27-.9 4.98-.5l.9-2.77c-1.06-.32-2.2-.57-3.84-.57-3.26 0-5.38 1.63-5.38 3.92 0 1.71 1.2 2.8 2.85 3.5l1.15.5c1.47.63 2.2.9 2.2 1.54 0 .58-.82 1.07-2.2 1.07-1.06 0-2.2-.17-3.43-.41l-.4 2.93c.89.25 2.11.5 3.74.5Zm-15.82-.16h3.26V8.92c0-1.71.9-2.7 2.37-2.7 1.47 0 2.28 1.07 2.28 2.78v7.75h3.26v-8c0-3.26-1.79-5.54-5.54-5.54-3.35 0-5.63 2.28-5.63 5.55v8Zm-14.36.16c1.14 0 2.04-.16 2.86-.49l-.33-3.01c-2.29.49-4.98.57-4.98-2.13v-7.5h-3.26v7.83c0 3.5 2.04 5.3 5.71 5.3Zm2.37-6.93c0 5.28 3.74 7 7.1 7 1.33 0 2.7-.27 3.73-.7l-.4-2.88c-1.08.31-2.2.42-3.23.42-2.09 0-4.01-.7-4.01-3.54v-.55c0-2.23 1.1-3.42 2.74-3.42 1.08 0 1.98.62 1.98 1.8 0 1.42-1.9 2.06-5.3 1.95l.16 1.88c4.29 1.22 8.32-.1 8.32-3.92 0-2.7-2.06-4.57-5.03-4.57-3.58 0-6.06 2.55-6.06 6.53Z"></path>
+            </svg>
+          </a>
+        </div>
+        <li class="news">
+          <a href="">
+              <span>News</span>
+          </a>
+        </li>
+    
+        <li class="faqs">
+          <a href="">
+              <span>FAQs</span>
+          </a>
+        </li>
+        <li class="developer dropdown">
+          <a href="">
+            <span>Developers</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#2C2D30" fill-opacity="0.03"></circle>
+              <path class="styles_navMenuButtonIconCaret__3NL1n" d="M5.81768 7.5L7.99966 9.68198L10.1816 7.5" stroke="#8E8E8E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              </path>
+            </svg>
+          </a>
+          <div class="drop-content">
+            <div class="drop-content1">
+              <svg style="overflow:visible" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="hammer"><rect x="-4" y="-4" width="32" height="32" fill="url(#:Rb6krpdaH1:)" mask="url(#:Rb6krpda:)"></rect><mask id=":Rb6krpda:" maskUnits="userSpaceOnUse"><g class="hammer" style="transform-box: view-box; transform-origin: 8.31px 17.86px 0px; transform: none;"><path d="M10.019 12.0485C10.4853 11.3461 11.4174 11.1272 12.1476 11.5488C12.8777 11.9704 13.1543 12.887 12.7791 13.6421L9.09738 21.0512C8.5548 22.1431 7.20347 22.5508 6.14756 21.9411C5.09165 21.3315 4.76905 19.9574 5.44336 18.9415L10.019 12.0485Z" stroke="#fff" stroke-width="1.5"></path><path d="M14.7668 1.80281C14.7548 1.79588 14.743 1.78947 14.7305 1.78345C14.3916 1.62031 9.42349 -0.652616 6.67062 4.88944C6.39255 5.44923 6.94369 6.01658 7.53599 5.81691C9.44919 5.17192 10.0133 5.01809 11.2246 4.82046C11.7213 4.73941 12.1519 5.16757 12.0801 5.66573L11.7207 8.16001C11.677 8.46355 11.8225 8.76314 12.0881 8.91648L14.4278 10.2673C14.7074 10.4287 15.0588 10.3931 15.3004 10.1789L16.266 9.32269C16.5075 9.10851 16.859 9.07291 17.1386 9.23432L17.9695 9.71404L17.2197 11.0132L18.8435 11.9507C19.5609 12.3649 20.4783 12.1191 20.8925 11.4016L22.3925 8.80356C22.8067 8.08612 22.5609 7.16874 21.8435 6.75452L20.2197 5.81702L19.6572 6.79131L18.7977 6.29509C18.5321 6.14175 18.3866 5.84216 18.4304 5.53862L18.5735 4.54499C18.6172 4.24145 18.4718 3.94186 18.2062 3.78852L14.7668 1.80281Z" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"></path></g></mask><defs><linearGradient id=":Rb6krpdaH1:" x1="24" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#6A8272"></stop><stop offset="0.2" stop-color="#787179"></stop><stop offset="0.4" stop-color="#6A8272"></stop><stop offset="0.6" stop-color="#5F6C75"></stop><stop offset="0.8" stop-color="#7F7540"></stop><stop offset="1" stop-color="#98644F"></stop></linearGradient></defs></svg>
+              <div class="dc1-content">
+                <p class="dc1-heading">Developer Dashboard</p>
+                <svg class="styles_menuLinkTitleIcon__hNKn6" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#2C2D30" fill-opacity="0.03"></circle><path d="M5.70185 10.298L10.298 5.70185M10.298 5.70185H6.76251M10.298 5.70185V9.23738" stroke="#2C2D30" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </div>
+              <p class="dc1-paragraph">Start Building</p>
+            </div>
+            <div class="drop-content2">
+              <svg style="overflow:visible" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="book"><rect width="24" height="24" fill="url(#:Rd6krpdaH1:)" mask="url(#:Rd6krpda:)"></rect><mask id=":Rd6krpda:" maskUnits="userSpaceOnUse"><g class="book" style="transform-origin: 12px 12px 0px; transform: none; transform-box: fill-box;"><path d="M12 5.75V18.25M12 5.75C10.86 5 9.32 4.5 7.63 4.5C5.93 4.5 4.39 5 3.25 5.75V18.25C4.39 17.5 5.93 17.04 7.63 17.04C9.32 17.04 10.86 17.5 12 18.25M12 5.75C13.14 5 14.68 4.5 16.38 4.5C18.07 4.5 19.61 5 20.75 5.75V18.25C19.61 17.5 18.07 17.04 16.38 17.04C14.68 17.04 13.14 17.5 12 18.25" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path class="page" d="M12 18.25V5.75C10.86 5 9.32 4.5 7.63 4.5C5.93 4.5 4.39 5 3.25 5.75V18.25C4.39 17.5 5.93 17.04 7.63 17.04C9.32 17.04 10.86 17.5 12 18.25Z" fill="#000" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></g></mask><defs><linearGradient id=":Rd6krpdaH1:" x1="24" y1="0" x2="0" y2="24" gradientUnits="userSpaceOnUse"><stop stop-color="#6A8272"></stop><stop offset="0.2" stop-color="#787179"></stop><stop offset="0.4" stop-color="#6A8272"></stop><stop offset="0.6" stop-color="#5F6C75"></stop><stop offset="0.8" stop-color="#7F7540"></stop><stop offset="1" stop-color="#98644F"></stop></linearGradient></defs></svg>
+              <div class="dc2-content">
+                <p class="dc2-heading">Documentation</p>
+                <svg class="styles_menuLinkTitleIcon__hNKn6" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#2C2D30" fill-opacity="0.03"></circle><path d="M5.70185 10.298L10.298 5.70185M10.298 5.70185H6.76251M10.298 5.70185V9.23738" stroke="#2C2D30" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+              </div>
+              <p class="dc2-paragraph">Clear & comprehensive docs</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="auth">
+        <button class="bridge">
+          <svg class="styles_bridgeLinkIcon__n2G03" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="line-1" d="M3.5 9.5V7.5C3.5 5 5.5 3 8 3V3C10.5 3 12.5 5 12.5 7.5V9.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" pathLength="1" stroke-dashoffset="0px" stroke-dasharray="1px 1px"></path><path class="line-2" d="M3.5 9.5V7.5C3.5 5 5.5 3 8 3V3C10.5 3 12.5 5 12.5 7.5V9.5" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" pathLength="1" stroke-dashoffset="0px" stroke-dasharray="0px 1px"></path><circle class="circle-left" cx="3.5" cy="11" r="1.5" stroke="currentColor" stroke-width="1.2"></circle><circle class="circle-right" cx="12.5" cy="11" r="1.5" stroke="currentColor" stroke-width="1.2"></circle></svg>
+          <span>Bridge</span>
+        </button>
+        <button class="create-account"><a href="create.html">Create Account</a></button>
+      </div>
+      <button class="hamburger" id="dropBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+          <path fill-rule="evenodd" d="M3 9a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 9Zm0 6.75a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </svg></button>
+      <div class="sidebar" id="myDropdown">
+        <ul class="navlinks1">
+          <li class="navlinks2">
+            <a href="news.html">News</a>
+          </li>
+          <li class="navlinks2">
+            <a href="">Faqs</a>
+          </li>
+          <li class="navlinks2">
+            <a href="">Developer Dashboard <svg class="styles_menuLinkTitleIcon__hNKn6" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#2C2D30" fill-opacity="0.03"></circle><path d="M5.70185 10.298L10.298 5.70185M10.298 5.70185H6.76251M10.298 5.70185V9.23738" stroke="#2C2D30" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+          </li>
+          <li class="navlinks2">
+            <a href="">Documentation <svg class="styles_menuLinkTitleIcon__hNKn6" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8" fill="#2C2D30" fill-opacity="0.03"></circle><path d="M5.70185 10.298L10.298 5.70185M10.298 5.70185H6.76251M10.298 5.70185V9.23738" stroke="#2C2D30" stroke-opacity="0.3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+          </li>
+        </ul>
+        <div class="auth2">
+          <button class="bridge1">Bridge</button>
+          <button class="create-account2"><a href="create.html">Create account</a></button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1 class="news-heading">News</h1>
+    <p class="news-paragraph">Stay informed with Lens updates, ecosystem news, and insights.</p>
+    <div class="hero-content">
+      <div class="hero-content1">
+        <span class="hc-date">20 Jan, 2026</span>
+        <h2 class="hc-heading">Mask Network to Steward the Next Chapter of Lens</h2>
+        <p class="hc-text">Mask Network becomes the new steward of Lens, bringing consumer-grade SocialFi applications to the leading decentralized social platform.</p>
+      </div>
+      <img src="assests/lens-next-chapter.png" alt="" class="hc-img">
+    </div>
+  </section>
+  <section class="recent-articles">
+    <h2 class="articles-heading">Recent Articles</h2>
+    <div class="articles-card-cont">
+      <div class="articles-card">
+        <span class="articles-date">20 Jan, 2026</span>
+        <h3 class="articles-heading">Mask Network to Steward the Next Chapter of Lens</h3>
+        <p class="articles-text">Mask Network becomes the new steward of Lens, bringing consumer-grade SocialFi applications to the leading decentralized social platform.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">8 Aug, 2025</span>
+        <h3 class="articles-heading">Lens Token Distibutor</h3>
+        <p class="articles-text">Gasless, Targeted, and Fair</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">25 April, 2025</span>
+        <h3 class="articles-heading">Lens Spring Hackathon</h3>
+        <p class="articles-text">Build with lens and win prizes.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">4 April, 2025</span>
+        <h3 class="articles-heading">Build SocialFi Apps Faster with Lens, Now on Mainnet</h3>
+        <p class="articles-text">A full stack for SocialFi: Chain, Protocol, and Storage—plus a bran-new Developer portal packed with powerful tools.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">3 April, 2025</span>
+        <h3 class="articles-heading">Build with Lens: Developer Program v1</h3>
+        <p class="articles-text">Introducing an early version of our Developer Program.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">4 Mar, 2025</span>
+        <h3 class="articles-heading">Introducing Grove: Onchain-Controlled Storage</h3>
+        <p class="articles-text">Now available on Lens Chain, Ethereum Mainnet, ZKsync, Abstract, Sophon, and Base.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">25 Feb, 2025</span>
+        <h3 class="articles-heading">Migrating the Lens Ecosystem to Lens Chain</h3>
+        <p class="articles-text">Learn about the migration process.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">12 Feb, 2025</span>
+        <h3 class="articles-heading">GHO: Stablecoin as Gas on Lens Chain</h3>
+        <p class="articles-text">Deploying GHO as the gas token for Lens Chain.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">18 Dec, 2024</span>
+        <h3 class="articles-heading">Lens Closes $31 Million Strategic Raise.</h3>
+        <p class="articles-text">Led by Lightspeed Faction to Fuel the Rise of SocialFi.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">11 Dec, 2024</span>
+        <h3 class="articles-heading">Lens Storage Nodes: A Deep Dive</h3>
+        <p class="articles-text">The problem with digital storage and the path forward.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">10 Dec, 2024</span>
+        <h3 class="articles-heading">Lens Holiday Hackathon</h3>
+        <p class="articles-text">Build with Lens and win prizes.</p>
+      </div>
+      <div class="articles-card">
+        <span class="articles-date">12 Nov, 2024</span>
+        <h3 class="articles-heading">Introducing the New Lens</h3>
+        <p class="articles-text">A powerful purpose-built stack: Chain, Social Protocol and Storage.</p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <section class="footer-content">
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 80 20" width="96" height="24">
+            <path fill="#2C2D30" d="M24.89 4.18c-1.44 0-2.74.57-3.73 1.48l-.1-.05A5.74 5.74 0 0 0 15.35.25a5.74 5.74 0 0 0-5.72 5.36l-.1.05A5.46 5.46 0 0 0 5.8 4.18 5.8 5.8 0 0 0 0 10c0 2.78 2.75 5.16 3.43 5.7a19.1 19.1 0 0 0 11.92 4.06c4.51 0 8.7-1.5 11.9-4.06.7-.54 3.44-2.92 3.44-5.7a5.8 5.8 0 0 0-5.8-5.8ZM74.53 16.91c3.19 0 5.47-1.3 5.47-3.91 0-1.88-1.18-3.2-3.75-4.16l-.66-.25c-1.02-.38-1.63-.73-1.63-1.38 0-1.47 3.27-.9 4.98-.5l.9-2.77c-1.06-.32-2.2-.57-3.84-.57-3.26 0-5.38 1.63-5.38 3.92 0 1.71 1.2 2.8 2.85 3.5l1.15.5c1.47.63 2.2.9 2.2 1.54 0 .58-.82 1.07-2.2 1.07-1.06 0-2.2-.17-3.43-.41l-.4 2.93c.89.25 2.11.5 3.74.5Zm-15.82-.16h3.26V8.92c0-1.71.9-2.7 2.37-2.7 1.47 0 2.28 1.07 2.28 2.78v7.75h3.26v-8c0-3.26-1.79-5.54-5.54-5.54-3.35 0-5.63 2.28-5.63 5.55v8Zm-14.36.16c1.14 0 2.04-.16 2.86-.49l-.33-3.01c-2.29.49-4.98.57-4.98-2.13v-7.5h-3.26v7.83c0 3.5 2.04 5.3 5.71 5.3Zm2.37-6.93c0 5.28 3.74 7 7.1 7 1.33 0 2.7-.27 3.73-.7l-.4-2.88c-1.08.31-2.2.42-3.23.42-2.09 0-4.01-.7-4.01-3.54v-.55c0-2.23 1.1-3.42 2.74-3.42 1.08 0 1.98.62 1.98 1.8 0 1.42-1.9 2.06-5.3 1.95l.16 1.88c4.29 1.22 8.32-.1 8.32-3.92 0-2.7-2.06-4.57-5.03-4.57-3.58 0-6.06 2.55-6.06 6.53Z"></path>
+          </svg>
+        </div>
+        <div class="footer-column">
+          <div class="footer-col">
+            <div class="footer-col-heading">Developers</div>
+            <div class="footer-col-items">Docs</div>
+            <div class="footer-col-items">Dashboard</div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-heading">About</div>
+            <div class="footer-col-items">News</div>
+            <div class="footer-col-items">FAQ</div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-heading">Company</div>
+            <div class="footer-col-items">Contact</div>
+            <div class="footer-col-items">Privacy</div>
+            <div class="footer-col-items">Terms</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom2">
+        <p class="lens-lab">2026 Lens Labs</p>
+        <div class="footer-bottom2-items">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="styles_socialIcon__QGAbm"><path d="M13.6009 2.24609H16.0544L10.6943 8.37227L17 16.7086H12.0627L8.19566 11.6527L3.77087 16.7086H1.31595L7.04904 10.156L1 2.24609H6.06262L9.55811 6.86743L13.6009 2.24609ZM12.7399 15.2401H14.0993L5.32392 3.63746H3.86506L12.7399 15.2401Z" fill="#2C2D30"></path></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="styles_socialIcon__QGAbm"><path d="M9 0C4.027 0 0 4.089 0 9.137C0 13.431 2.902 16.995 6.818 18C6.77088 17.8602 6.74788 17.7135 6.75 17.566V16.012H5.625C5.018 16.012 4.455 15.739 4.207 15.236C3.915 14.687 3.87 13.842 3.127 13.316C2.902 13.134 3.082 12.951 3.33 12.973C3.802 13.11 4.184 13.431 4.544 13.91C4.904 14.389 5.062 14.504 5.737 14.504C6.052 14.504 6.547 14.481 6.997 14.412C7.244 13.772 7.672 13.202 8.19 12.927C5.175 12.562 3.735 11.054 3.735 8.998C3.735 8.107 4.117 7.262 4.747 6.531C4.545 5.822 4.275 4.361 4.837 3.789C6.188 3.789 6.997 4.681 7.2 4.909C7.90248 4.6687 8.63956 4.54506 9.382 4.543C10.17 4.543 10.89 4.68 11.564 4.908C11.767 4.68 12.577 3.789 13.927 3.789C14.467 4.338 14.219 5.822 13.994 6.531C14.624 7.239 14.984 8.107 14.984 8.998C14.984 11.054 13.567 12.562 10.574 12.882C11.407 13.315 11.993 14.549 11.993 15.462V17.544C11.993 17.612 11.97 17.68 11.97 17.749C15.48 16.516 18 13.135 18 9.137C18 4.09 13.973 0 9 0Z" fill="#2C2D30"></path></svg>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="styles_socialIcon__QGAbm"><path d="M16.9566 3.28705C19.2154 6.60805 20.3309 10.354 19.9139 14.6665C19.9121 14.6848 19.9026 14.7015 19.8876 14.7125C18.1771 15.9685 16.5199 16.7308 14.8859 17.2363C14.8732 17.2401 14.8596 17.2399 14.847 17.2357C14.8344 17.2314 14.8234 17.2233 14.8157 17.2125C14.4382 16.6873 14.0952 16.1335 13.7947 15.552C13.7774 15.5178 13.7932 15.4765 13.8287 15.463C14.3734 15.2578 14.8914 15.0118 15.3896 14.7205C15.4289 14.6975 15.4314 14.6413 15.3951 14.6143C15.2894 14.5358 15.1846 14.4533 15.0844 14.3708C15.0656 14.3555 15.0404 14.3525 15.0192 14.3628C11.7844 15.8565 8.24091 15.8565 4.96792 14.3628C4.94667 14.3533 4.92142 14.3565 4.90317 14.3715C4.80317 14.454 4.69817 14.5358 4.59342 14.6143C4.55717 14.6413 4.56017 14.6975 4.59967 14.7205C5.09792 15.0063 5.61592 15.2578 6.15991 15.464C6.19516 15.4775 6.21192 15.5178 6.19442 15.552C5.90042 16.1343 5.55742 16.688 5.17292 17.2133C5.15617 17.2345 5.12867 17.2443 5.10267 17.2363C3.47642 16.7308 1.81917 15.9685 0.108676 14.7125C0.0944255 14.7015 0.0841756 14.684 0.0826756 14.6658C-0.265824 10.9355 0.444425 7.15855 3.03717 3.2863C3.04342 3.27605 3.05292 3.26805 3.06392 3.2633C4.33967 2.6778 5.70642 2.24705 7.13491 2.00105C7.16091 1.99705 7.18691 2.00905 7.20041 2.03205C7.37691 2.34455 7.57866 2.7453 7.71516 3.0728C9.22091 2.8428 10.7502 2.8428 12.2874 3.0728C12.4239 2.7523 12.6187 2.34455 12.7944 2.03205C12.8007 2.02064 12.8104 2.0115 12.8221 2.00594C12.8339 2.00037 12.8471 1.99866 12.8599 2.00105C14.2892 2.2478 15.6559 2.67855 16.9306 3.2633C16.9419 3.26805 16.9511 3.27605 16.9566 3.28705V3.28705ZM8.48066 10.3795C8.49641 9.27679 7.69241 8.36429 6.68316 8.36429C5.68217 8.36429 4.88592 9.26879 4.88592 10.3795C4.88592 11.49 5.69792 12.3945 6.68316 12.3945C7.68441 12.3945 8.48066 11.49 8.48066 10.3795V10.3795ZM15.1261 10.3795C15.1419 9.27679 14.3379 8.36429 13.3289 8.36429C12.3277 8.36429 11.5314 9.26879 11.5314 10.3795C11.5314 11.49 12.3434 12.3945 13.3289 12.3945C14.3379 12.3945 15.1261 11.49 15.1261 10.3795V10.3795Z" fill="#2C2D30"></path></svg>
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="styles_socialIcon__QGAbm"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4422 2.9385C13.1668 2.35817 13.9705 2.13745 14.7418 2.19489C15.5839 2.2576 16.3632 2.64948 16.9452 3.2187C17.5272 3.78796 17.927 4.54936 17.991 5.37111C18.0556 6.20033 17.7759 7.06883 17.0386 7.83107C16.9712 7.90123 16.9023 7.97052 16.8319 8.03895C16.4776 8.38549 16.1109 8.69541 15.7384 8.97258C15.72 8.98628 15.72 9.0139 15.7384 9.0276C16.1109 9.30484 16.4777 9.61485 16.8321 9.96149L16.8328 9.96221C16.902 10.0303 16.9702 10.0989 17.0373 10.1679L17.0379 10.1684C17.7755 10.93 18.0554 11.7983 17.991 12.6275C17.9273 13.4491 17.5277 14.2106 16.9459 14.7801C16.3641 15.3495 15.5849 15.7417 14.7427 15.8047C13.9713 15.8623 13.1675 15.6419 12.4425 15.0618C12.421 15.0446 12.3886 15.0582 12.3858 15.0856C12.2932 15.9965 11.885 16.7077 11.2986 17.2001C10.6584 17.7378 9.82405 18 9.00015 18C8.17626 18 7.34194 17.7378 6.7017 17.2001C6.11522 16.7076 5.707 15.9964 5.6145 15.0853C5.61172 15.0579 5.57929 15.0443 5.5578 15.0615C4.83315 15.6418 4.02952 15.8625 3.25815 15.8051C2.41604 15.7424 1.63676 15.3505 1.0548 14.7813C0.47281 14.212 0.073 13.4506 0.0089976 12.6289C-0.0555881 11.7996 0.224047 10.9311 0.961356 10.1689C1.0288 10.0987 1.09772 10.0295 1.16809 9.96103C1.52243 9.61449 1.88909 9.30457 2.26155 9.0274C2.27997 9.0137 2.27997 8.98608 2.26155 8.97237C1.88904 8.69514 1.52231 8.38513 1.16792 8.03849L1.16718 8.03777C1.09797 7.96965 1.0298 7.9011 0.962668 7.83212L0.962125 7.83156C0.224473 7.06998 -0.0554402 6.20168 0.00893775 5.37247C0.072724 4.55087 0.472277 3.78937 1.05409 3.21991C1.63587 2.65049 2.41506 2.2583 3.2573 2.19533C4.02867 2.13765 4.83245 2.3581 5.55752 2.93818C5.57902 2.95538 5.61143 2.94176 5.61421 2.91438C5.70677 2.00345 6.11497 1.29231 6.70138 0.799859C7.34162 0.262201 8.17594 0 8.99983 0C9.82372 0 10.658 0.262201 11.2983 0.799859C11.8848 1.29237 12.293 2.00362 12.3855 2.91471C12.3883 2.9421 12.4207 2.95572 12.4422 2.9385ZM5.72754 8.72415C5.72754 8.42541 5.97273 8.18146 6.27299 8.18146C6.57457 8.18146 6.81845 8.42541 6.81845 8.72415V9.95695C6.81845 10.2557 6.57325 10.4996 6.27299 10.4996C5.97273 10.4996 5.72754 10.2557 5.72754 9.95695V8.72415ZM9.00063 9.49264C9.18557 9.49264 9.53036 9.4152 9.66775 9.37714V9.37583C9.96101 9.29576 10.2635 9.46639 10.3441 9.75646C10.4247 10.0478 10.253 10.3484 9.96101 10.4285C9.93856 10.435 9.39826 10.5834 9.00063 10.5834C8.603 10.5834 8.0627 10.435 8.04024 10.4285C7.89889 10.3904 7.78132 10.2998 7.70866 10.1725C7.63601 10.0465 7.61751 9.89821 7.65714 9.75777C7.69677 9.61733 7.78793 9.50052 7.91607 9.42833C8.04288 9.35614 8.19084 9.33776 8.33351 9.37714C8.44183 9.40733 8.79719 9.49264 9.00063 9.49264ZM11.727 8.18146C12.0273 8.18146 12.2725 8.42541 12.2725 8.72415V9.95695C12.2725 10.2557 12.0273 10.4996 11.727 10.4996C11.4267 10.4996 11.1816 10.2557 11.1816 9.95695V8.72415C11.1816 8.42541 11.4254 8.18146 11.727 8.18146Z" fill="#2C2D30"></path></svg>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script>
+    const btn = document.querySelector('#dropBtn');
+    btn.addEventListener('click', function(){
+      const myDrop = document.querySelector('#myDropdown');
+      
+      if (myDrop.classList.contains('open')) {
+        myDrop.classList.remove('open');
+        btn.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+          <path fill-rule="evenodd" d="M3 9a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 9Zm0 6.75a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+        </svg>
+        `;
+        myDrop.style.opacity = 0;
+        myDrop.style.top = '-100%';
+      } else {
+        myDrop.classList.add('open');
+        btn.innerHTML = 'X'
+        myDrop.style.opacity = 1;
+        myDrop.style.top = '70px';
+      }
+    });
+  </script>
+</body>
+</html>
