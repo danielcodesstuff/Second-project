@@ -754,13 +754,7 @@ input{
     padding-right: 30px;
   }
 }
-@media screen and(max-width: 500px){
-  .bluechip-img{
-    grid-template-columns: repeat(2, 1fr);
-    margin-left: 10px;
-  }
-}
-@media screen and (max-width:320px){
+@media screen and (max-width:480px){
   .logo{
     margin-left: -60px;
   }
@@ -790,8 +784,10 @@ input{
     text-align: center;
   }
   .integration-card{
-    width: 280px;
+    width: 100%;
+    padding-left: 40px;
   }
+
   .bluechip-heading{
     font-size: 20px;
   }
@@ -800,14 +796,19 @@ input{
   }
   .bluechip-img{
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 70px;
+    left: 50%;
+    transform: translateX(50%);
+    margin-top: 35px;
   }
   .users-card1{
     width: 90%;
   }
-  .onchain-card1{
+  .onchain-cards{
     width: 95%;
   }
+  /* .onchain-card1{
+    width: 95%;
+  } */
   .grove{
     width: 95%;
   }
@@ -818,7 +819,7 @@ input{
     font-size: 15px;
   }
   .power-card{
-    width: 95%;
+    width: 100%;
     font-size: 14px;
   }
   .grow-heading{
